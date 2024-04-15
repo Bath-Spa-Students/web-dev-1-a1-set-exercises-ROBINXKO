@@ -1,0 +1,128 @@
+body{
+    background-color: white;
+    height: 820px;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 820px;
+   
+}
+
+html{
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.headershape{
+    width: 101%;
+    height:200px;
+    background-color:#17072b ;
+    transform: translateX(-10px) translateY(-5px);
+}
+
+@font-face {
+    font-family: 'tahoma';
+    src: url('tahoma.ttf'); 
+}
+
+h1{
+    font-family: 'tahoma';
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    transform: translateY(-200px);
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+  
+    
+}
+
+.title{
+    
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    transform: translateY(-220px);
+  
+}
+.abovetext{
+    margin-right: 45px;
+    font-family: 'tahoma';
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+}
+@font-face{
+    font-family: "Arial";
+    src: url(ArialTh.ttf);
+}
+h2{
+    font-size: 35px;
+    font-family: "Arial";
+    font-weight: 400;
+    transform: translateY(-230px) translateX(40px);
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+}
+.para{
+    font-size: 22.2px;
+    font-family:"Arial";
+    font-weight: 400;
+    transform: translateY(-230px) translateX(40px);
+}
+.navimage{
+    transform: translateX(40px)translateY(-230px);
+    width: 865px;
+    height: 350px;
+}
+.asideshape{
+    background-color: #172d67;
+    transform:translateY(-790px)translateX(950px);
+    width: 560px;
+    height: 556px;
+
+}
+.lineup{
+    transform:translateY(-1350px)translateX(950px);
+    font-size: 35px;
+    font-family: "Arial";
+    font-weight: 400;
+    color: white;
+    text-decoration: underline white;
+    text-underline-offset: 0.2em;
+}
+.lineupp{
+    transform:translateY(-1355px)translateX(990px);
+    font-size: 22px;
+    font-family: "Arial";
+    font-weight: 400;
+    color: white;
+}
+.lineuppara{
+    margin-bottom: 30px;
+}
+.asideimg{
+    width: 200px;
+    height: 200px;
+    margin-right: 5px;
+    transform: translateY(-1305px)translateX(990px);
+}
+.footershape{
+    width: 102%;
+    height: 40px;
+    background-color:#8c15e9 ;
+    padding-bottom: 0;
+    transform: translateY(-1260px)translateX(-10px);
+    
+}
+.footerp{
+    font-size: 22px;
+    font-family: "Arial";
+    text-align: center;
+    transform: translateY(-1315px);
+    color: white;
+}

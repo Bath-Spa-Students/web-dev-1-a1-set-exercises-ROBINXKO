@@ -1,0 +1,28 @@
+/*CSS code for body*/
+body {
+    font-family: arial;
+    background-color: #6a67ce;
+    }
+
+/*CSS code for input*/
+input {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: solid 2px #BBB;
+    }
+
+/*CSS code for div*/
+div {
+    margin: 10px 0px;
+    }
+
+/*CSS code for button*/
+button {
+    padding: 10px;
+    background-color: #868596;
+    color: #FFFFFF;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 5px;
+    }

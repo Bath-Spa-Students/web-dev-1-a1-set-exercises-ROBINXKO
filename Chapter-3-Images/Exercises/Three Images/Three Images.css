@@ -1,0 +1,37 @@
+/*CSS Code to set the background color of the body*/
+body {
+    background-color: bisque;
+  }
+  
+/*CSS Code to center the h1 element*/
+h1 {
+    text-align: center;
+  }
+  
+/*CSS Code to style the .Images class*/
+.Images {
+
+/*CSS Code to add a grayscale filter to the images*/
+    filter: grayscale(50%);
+
+/*CSS Code to add a transition effect to the filter property*/
+    transition: filter 0.3s ease;
+
+/*CSS Code to position the .Images class relative to its parent container*/
+    position: relative;
+
+/*CSS Code to use flexbox to center the images horizontally and vertically*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+/*CSS Code to remove the grayscale filter when the .Images class is hovered*/
+  .Images:hover {
+    filter: grayscale(0%);
+  }
+  
+/*CSS Code to add a margin to the images*/
+  .Images img {
+    margin: 0 10px;
+  }

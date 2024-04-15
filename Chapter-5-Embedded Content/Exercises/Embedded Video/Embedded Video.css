@@ -1,0 +1,40 @@
+/*CSS Code For Size Of The HTML File*/
+html {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  margin: 0;
+  overflow: hidden;
+}
+
+/*CSS Code For Styling The Body*/
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  margin: 0;
+  overflow: hidden;
+  }
+
+/*CSS Code For Size Of Video Container*/
+.video-container {
+  max-width: 81%; 
+  max-height: 81%; 
+}
+
+/*CSS Code For Size Of The Video*/
+video {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  right: 20%;
+  }
+
+/*CSS Code For Video Poster*/
+video[poster]{
+  height: 100vh;
+  width: 100vw;
+}
